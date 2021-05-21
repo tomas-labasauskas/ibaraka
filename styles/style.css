@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  background: black;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #333333;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b6b6b6;
+}
+
+::-moz-selection {
+  color: black;
+  background: white;
+}
+
+::selection {
+  color: black;
+  background: white;
+}
+
+::-moz-selection {
+  color: black;
+  background: white;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+  outline: none;
+}
+
+/*
+  Light 300
+  Light 300 italic
+  Regular 400
+  Regular 400 italic
+  Medium 500
+  Medium 500 italic
+  Semi-bold 600
+  Semi-bold 600 italic
+  Bold 700
+  Bold 700 italic
+  */
+li,
+a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+.latest-yt {
+  border: white solid 3px;
+  border-radius: 16px;
+  margin: 5rem;
+}
+
+.spotify-ep {
+  margin: 5rem;
+}
+/*# sourceMappingURL=style.css.map */
